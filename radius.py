@@ -5,8 +5,8 @@ import math
 
 def calculate_area():
     radius = input("Enter the value of radius: ")
-    area_t = math.pi * pow(float(radius), 2)
-    return area_t
+    area_c = math.pi * pow(float(radius), 2)
+    return area_c
 
 
 def print_area():
