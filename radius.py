@@ -2,10 +2,18 @@
 
 import math
 
-print("Calculate area of a circle")
-print("==========================")
-radius = input("Enter the value of radius: ")
-area = math.pi * pow(float(radius), 2)
-print("The calculated area of circle is ", area)
-######
-##########
+
+def calculate_area():
+    radius = input("Enter the value of radius: ")
+    area_t = math.pi * pow(float(radius), 2)
+    return area_t
+
+
+def print_area():
+    print("Calculate area of a circle")
+    print("==========================")
+    area = calculate_area()
+    print("The calculated area of circle is ", area)
+
+
+print_area()
